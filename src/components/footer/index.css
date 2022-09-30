@@ -1,0 +1,22 @@
+.footer {
+  margin-left: 140px;
+  position: fixed;
+  bottom: 0;
+  padding: 20px 100px;
+  border-top: 1px solid #ccc;
+  width: 100%;
+  background-color: #fff;
+}
+
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+  .footer {
+      padding: 20px 50px;
+  }
+}
+
+@media (max-width: 46.1875em) {
+  .footer {
+      padding: 0px 40px;
+      margin-left: 0px;
+  }
+}
